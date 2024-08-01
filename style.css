@@ -1,0 +1,97 @@
+/* Reset CSS de Eric Meyer */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+figure img {
+  border-radius: 500px;
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+div h2 {
+  font-weight: bold;
+  color: rgb(246, 63, 124);
+  margin-left: 50px;
+  margin-top: 30px;
+}
+div p {
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 180px;
+}
+div a {
+  margin-left: 50px;
+}
+
+#h2filmes {
+  font-weight: bold;
+  color: rgb(246, 63, 124);
+  margin-left: 50px;
+  margin-top: 20px;
+  padding-top: 12px;
+}
+
+ol {
+  margin-top: 10px;
+  margin-left: 65px;
+}
+
+#h2musicas {
+  font-weight: bold;
+  color: rgb(246, 63, 124);
+  margin-left: 50px;
+  padding-top: 12px;
+}
+
+ul {
+  margin-left: 65px;
+  margin-top: 10px;
+}
+
+#sFilme {
+  background-color: rgb(250, 194, 214);
+  height: 135px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+#sMusica {
+  background-color: rgb(250, 194, 214);
+  height: 120px;
+  margin-top: 6px;
+}
+
+.fraseDesafio {
+  align-items: center;
+  font-size: 14px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #D9D9D9;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  height: 35px;
+}/*# sourceMappingURL=style.css.map */
