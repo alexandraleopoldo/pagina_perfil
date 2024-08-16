@@ -16,7 +16,9 @@
     justify-content: space-between;
   }
   
-
+.principal {
+    
+}
 
 
 figure {
@@ -26,17 +28,26 @@ figure {
         height: 200px;
         margin-top: 50px;
         margin-left: 50px;
+        @media (max-width: 405px){
+            margin-left: 14px;
+            padding: 4px;
+            margin-top: 12px;
+            }
 
     }
 
 }
-div {
+.perfil {
     h2 {
        
         font-weight: bold;
         color: rgb(246, 63, 124);
         margin-left: 50px;
         margin-top: 30px;
+        @media (max-width: 405px){
+          margin: 4px;
+          padding: 4px;
+        }
        
     }
     p {
@@ -44,11 +55,27 @@ div {
        margin-top: 25px;
        margin-bottom: 25px;
        margin-right: 180px;
+       @media (max-width: 405px){
+        margin: 4px;
+        padding: 4px;
+        font-size: 18px;
+        gap: 4px;
+    }
     }
     a {
         margin-left: 50px;
+        @media (max-width: 405px){
+            margin: 4px;
+            padding: 4px;
+            
+            }
+       
         
     }
+    @media (max-width: 405px){
+        margin: 4px;
+        padding: 4px;
+        }
 }
 #h2filmes {
     font-weight: bold;
@@ -56,12 +83,19 @@ div {
     margin-left: 50px;
     margin-top: 20px;
     padding-top: 12px;
+    @media (max-width: 405px){
+        margin: 10px;
+        padding: 4px;
+      }
  
     
 }
 ol {
     margin-top: 10px;
     margin-left: 65px;
+    @media (max-width: 405px){
+        margin-left: 36px;
+      }
    
 }
 #h2musicas {
@@ -69,12 +103,20 @@ ol {
     color: rgb(246, 63, 124);
     margin-left: 50px;
     padding-top: 12px ;
+    @media (max-width: 405px){
+        margin: 10px;
+        padding: 4px;
+      }
 
 }
 
 ul {
     margin-left: 65px;
     margin-top: 10px;
+    @media (max-width: 405px){
+        margin-left: 36px;
+        
+      }
     
     
 }
@@ -90,6 +132,9 @@ ul {
     background-color: rgb(250, 194, 214);
     height: 120px;
     margin-top: 6px;
+    @media (max-width: 405px){
+        height: 130px;
+    }
 }
 
 .fraseDesafio {
@@ -97,6 +142,12 @@ ul {
     font-size: 14px;
     padding-top: 10px;
     text-align: center;
+    @media (min-width: 405px){
+        font-size: 12px;
+      }
+      @media (max-width: 360px){
+        font-size: 10px;
+      }
 
 }
 

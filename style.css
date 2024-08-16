@@ -24,21 +24,54 @@ figure img {
   margin-top: 50px;
   margin-left: 50px;
 }
+@media (max-width: 405px) {
+  figure img {
+    margin-left: 14px;
+    padding: 4px;
+    margin-top: 12px;
+  }
+}
 
-div h2 {
+.perfil h2 {
   font-weight: bold;
   color: rgb(246, 63, 124);
   margin-left: 50px;
   margin-top: 30px;
 }
-div p {
+@media (max-width: 405px) {
+  .perfil h2 {
+    margin: 4px;
+    padding: 4px;
+  }
+}
+.perfil p {
   margin-left: 50px;
   margin-top: 25px;
   margin-bottom: 25px;
   margin-right: 180px;
 }
-div a {
+@media (max-width: 405px) {
+  .perfil p {
+    margin: 4px;
+    padding: 4px;
+    font-size: 18px;
+    gap: 4px;
+  }
+}
+.perfil a {
   margin-left: 50px;
+}
+@media (max-width: 405px) {
+  .perfil a {
+    margin: 4px;
+    padding: 4px;
+  }
+}
+@media (max-width: 405px) {
+  .perfil {
+    margin: 4px;
+    padding: 4px;
+  }
 }
 
 #h2filmes {
@@ -48,10 +81,21 @@ div a {
   margin-top: 20px;
   padding-top: 12px;
 }
+@media (max-width: 405px) {
+  #h2filmes {
+    margin: 10px;
+    padding: 4px;
+  }
+}
 
 ol {
   margin-top: 10px;
   margin-left: 65px;
+}
+@media (max-width: 405px) {
+  ol {
+    margin-left: 36px;
+  }
 }
 
 #h2musicas {
@@ -60,10 +104,21 @@ ol {
   margin-left: 50px;
   padding-top: 12px;
 }
+@media (max-width: 405px) {
+  #h2musicas {
+    margin: 10px;
+    padding: 4px;
+  }
+}
 
 ul {
   margin-left: 65px;
   margin-top: 10px;
+}
+@media (max-width: 405px) {
+  ul {
+    margin-left: 36px;
+  }
 }
 
 #sFilme {
@@ -78,12 +133,27 @@ ul {
   height: 120px;
   margin-top: 6px;
 }
+@media (max-width: 405px) {
+  #sMusica {
+    height: 130px;
+  }
+}
 
 .fraseDesafio {
   align-items: center;
   font-size: 14px;
   padding-top: 10px;
   text-align: center;
+}
+@media (min-width: 405px) {
+  .fraseDesafio {
+    font-size: 12px;
+  }
+}
+@media (max-width: 360px) {
+  .fraseDesafio {
+    font-size: 10px;
+  }
 }
 
 footer {
